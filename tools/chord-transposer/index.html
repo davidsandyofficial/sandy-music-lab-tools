@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Chord Transposer & Capo Finder demo</title><meta name="robots" content="noindex,follow"><link rel="canonical" href="https://sandymusiclab.com/tools/chord-transposer/"><link rel="stylesheet" href="style.css"></head><body>
+<div class="smlt"><section class="fx tool" aria-label="Chord Transposer and Capo Finder"><label for="src">Paste chords or a whole chord sheet</label>
+<textarea id="src" spellcheck="false">[Verse]
+G        D        Em       C
+Amazing grace how sweet the sound
+G    D/F#   Em7   Cadd9   Dsus4  D
+That saved a wretch like me</textarea>
+<div class="row"><div><label for="from">From key</label><select id="from"></select></div><div><label for="to">To key</label><select id="to"></select></div><div><label for="sp">Spelling</label><select id="sp"><option value="auto">Auto (by key)</option><option value="s">Sharps (#)</option><option value="f">Flats (b)</option></select></div></div>
+<div class="btns"><button id="dn" class="alt" aria-label="Down a half step">− ½ step</button><button id="up" class="alt" aria-label="Up a half step">+ ½ step</button><span class="mut" id="steps" aria-live="polite"></span></div>
+<label>Transposed</label><pre class="out" id="out" aria-live="polite"></pre>
+<div class="btns"><button id="cp">Copy result</button></div>
+<h3>Easiest capo options for this key</h3><div class="chips" id="capo"></div><p class="credit">Free tool by <a href="https://sandymusiclab.com/tools/chord-transposer/" target="_blank" rel="noopener">Sandy Music Lab</a></p></section>
+</div>
+<p class="smlt-credit">Made by <a href="https://sandymusiclab.com/tools/chord-transposer/?utm_source=github&utm_medium=referral&utm_campaign=tools">Sandy Music Lab</a> — use the full <a href="https://sandymusiclab.com/tools/chord-transposer/?utm_source=github&utm_medium=referral&utm_campaign=tools">Chord Transposer & Capo Finder</a>.</p>
+<script src="script.js"></script></body></html>

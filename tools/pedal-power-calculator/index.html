@@ -1,0 +1,11 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pedal Power Calculator demo</title><meta name="robots" content="noindex,follow"><link rel="canonical" href="https://sandymusiclab.com/tools/pedal-power-calculator/"><link rel="stylesheet" href="style.css"></head><body>
+<div class="smlt"><section class="fx tool" aria-label="Pedal power calculator"><div class="prow mut" style="font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em"><span>Pedal</span><span>mA</span><span>Volts</span><span>Polarity</span><span></span></div>
+<div id="list"></div>
+<div class="btns"><select id="pre" style="max-width:360px" aria-label="Add a typical pedal"></select><button id="add" class="alt">+ Add custom</button><button id="clr" class="alt">Clear</button></div>
+<div class="bpm" style="grid-template-columns:auto 1fr;align-items:center"><div class="big" id="tot" aria-live="polite">0 <small>mA</small></div><div class="chips" id="rec" aria-live="polite"></div></div>
+<ul class="tips" id="tips" aria-live="polite"></ul>
+<p class="note">Preset values are <b>typical figures by pedal type</b>, not for a specific model. Always check the mA, voltage and polarity printed on your pedal or in its manual, and use those.</p>
+<p class="credit">Free tool by <a href="https://sandymusiclab.com/tools/pedal-power-calculator/" target="_blank" rel="noopener">Sandy Music Lab</a></p></section>
+</div>
+<p class="smlt-credit">Made by <a href="https://sandymusiclab.com/tools/pedal-power-calculator/?utm_source=github&utm_medium=referral&utm_campaign=tools">Sandy Music Lab</a> — use the full <a href="https://sandymusiclab.com/tools/pedal-power-calculator/?utm_source=github&utm_medium=referral&utm_campaign=tools">Pedal Power Calculator</a>.</p>
+<script src="script.js"></script></body></html>
